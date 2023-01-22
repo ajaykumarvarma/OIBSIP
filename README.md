@@ -7,4 +7,3 @@ Oasis Infobyte Web Development Internship Submission Repo
 
 [Task 3](https://graceful-fudge-c0a7a9.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/44d387f0-01a5-4cd1-971d-feadd56c6d4e/deploy-status)](https://app.netlify.com/sites/graceful-fudge-c0a7a9/deploys)
