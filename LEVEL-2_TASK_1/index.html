@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2 class="animate-charcter"><b>Calculator</b></h2>
+    </div>
+    <div class="calc">
+        <div class="container">
+
+            <div class="display">
+                <input id="screen" type="text" placeholder="0">
+            </div>
+    
+            <div class="btns">
+                <div class="row">
+                    <button class="calc-btn">(</button>
+                    <button class="calc-btn">)</button>
+                    <button id="ce" onclick="backspc()"><b>CE</b></button>
+                    <button id="ac" onclick="screen.value=''"><b>AC</b></button>
+                    
+            
+                </div>
+    
+                <div class="row">
+                    <button onclick="squared()">x<sup>2</sup></button>
+                    <button onclick="squareroot()">√</button>
+                    <button onclick="percent()">%</button>
+                    <button class="calc-btn">÷</button>
+                </div>
+    
+                <div class="row">
+                    
+                    <button class="calc-btn">7</button>
+                    <button class="calc-btn">8</button>
+                    <button class="calc-btn">9</button>
+                    <button class="calc-btn">×</button>
+                </div>
+    
+                <div class="row">
+                    
+                    <button class="calc-btn">4</button>
+                    <button class="calc-btn">5</button>
+                    <button class="calc-btn">6</button>
+                    <button class="calc-btn">+</button>
+                </div>
+    
+                <div class="row">
+                    
+                    <button class="calc-btn">1</button>
+                    <button class="calc-btn">2</button>
+                    <button class="calc-btn">3</button>
+                    <button class="calc-btn">-</button>
+                </div>
+
+                <div class="row">
+                    <button class="calc-btn"><b>.</b></button>
+                    <button class="calc-btn">0</button>
+                    <button onclick="plus_minus()">+/-</button>
+                    <button id="eval" onclick="screen.value=eval(screen.value)"><b>=</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
